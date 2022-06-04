@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    border-spacing: 10px;
+}
+
+td{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.greyTd{
+    background-color: #fbedd7;
+}
+.redTd{
+    background-color: red;
+}
+.blackTd{
+    background-color: #000000;
+}
+.blueTd{
+    background-color: #0000fb;
+}
+.cianTd{
+    background-color: #1f8ffe;
+}
+.brownTd{
+    background-color: #a42c29;
+}
+.aquaTd{
+    background-color: #00fffc;
+}
+.darkerAquaTd{
+    background-color: #018c8a;
+}
+.purpleTd{
+    background-color: #7969eb;
+}
+.yellowTd{
+    background-color: #fdff02;
+}
+.orangeTd{
+    background-color: #fed803;
+}

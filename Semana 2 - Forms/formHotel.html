@@ -1,0 +1,79 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/formHotel.css">
+        <script type="text/javascript" src="src/formHotel.js"></script>
+        <title>Reserve ya | Hotel</title>
+    </head>
+    <body>
+        <form onsubmit="">
+            <h2 class="alignedItems">Reservación</h2>
+            <div>
+                <label class="labelInputs" for="fullName">Nombre Completo</label>
+                <input class="typeInputs" type="text" id="fullName" autofocus required/>             
+            </div>
+            <div>
+                <label class="labelInputs" for="extraGuests">Cantidad de acompañantes</label>
+                <input class="typeInputs" type="number" id="extraGuests" required value="0"/>
+            </div>
+            <div class="checkBoxInputs">
+                <label for="areKids">¿Incluye niños?</label>
+                <input type="checkbox" id="areKids" onclick="showExtraInputs(this, 'kidsNumberDiv')"/>
+            </div>
+            <div id="kidsNumberDiv" class="extraFields">
+                <label class="labelInputs" for="kidsNumber">Número de niños hospedados</label>
+                <input class="typeInputs" type="number" id="kidsNumber"/>
+            </div>
+            <div class="checkBoxInputs">
+                <label for="arePets">¿Incluye mascotas?</label>
+                <input type="checkbox" id="arePets" onclick="showExtraInputs(this, 'petsNumberDiv')"/>
+            </div>
+            <div id="petsNumberDiv" class="extraFields">
+                <label class="labelInputs" for="kidsNumber">Número de mascotas hospedadas</label>
+                <input class="typeInputs" type="number" id="kidsNumber"/>
+            </div>
+            <div>
+                <label class="labelInputs" for="arriveDate">Fecha de ingreso</label>
+                <input class="typeInputs" type="date" id="arriveDate" required/>
+            </div>
+            <div>
+                <label class="labelInputs" for="leaveDate">Fecha de fecha de salida</label>
+                <input class="typeInputs" type="date" id="leaveDate" required/>
+            </div>
+            <div>
+                <label class="labelInputs" for="roomType">Tipo de cuarto</label>
+                <select class="typeInputs" id="roomType" required>
+                    <option value="sencilla">Individual</option>
+                    <option value="doble">Doble</option>
+                    <option value="matrimonial">Matrimonial</option>
+                    <option value="suite">Suite</option>
+                    <option value="juniorSuite">Junior Suite</option>
+                    <option value="granSuite">Gran Suite</option>
+                </select>
+            </div>
+            <div class="checkBoxInputs">
+                <label for="honeymoonOptions">Incluir opciones de luna de miel</label>
+                <input type="checkbox" id="honeymoonOptions" onclick="showExtraInputs(this, 'honeymoonExtra')"/>
+            </div>
+            <div id="honeymoonExtra" class="extraFields">
+                <div class="checkBoxInputs">
+                    <label for="arePets">Servicio al cuarto</label>
+                    <input type="checkbox" id="dinnerExtra"/>
+                </div>
+                <div class="checkBoxInputs">
+                    <label for="arePets">Cena ambientada</label>
+                    <input type="checkbox" id="dinnerExtra"/>
+                </div>
+                <div class="checkBoxInputs">
+                    <label for="arePets">Decoración temática</label>
+                    <input type="checkbox" id="dinnerExtra"/>
+                </div>
+            </div>
+            <div class="alignedItems">
+                <input type="submit" value="Reservar" class="submitButton">
+            </div>
+        </form>
+    </body>
+</html>

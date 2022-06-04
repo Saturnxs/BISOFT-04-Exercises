@@ -1,0 +1,12 @@
+nav a {
+    color: white;
+    margin: 0 30px;
+    font-size: 13px;
+    padding: 0 12px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border-bottom: 1px solid white;
+    font-weight: 600;
+}

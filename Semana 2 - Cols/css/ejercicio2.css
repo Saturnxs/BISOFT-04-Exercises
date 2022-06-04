@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+     border-collapse: collapse;
+}
+
+td{
+    height: 150px;
+    width: 200px;
+}
+
+.greyTd{
+    background-color: #fbedd7;
+}
+.whiteOldTd{
+    background-color: #eee9a9;
+}
+.redTd{
+    background-color: red;
+}
+.beisheTd{
+    background-color: #d1b68b;
+}
+.blueTd{
+    background-color: #0c807f;
+}
+.cianTd{
+    background-color: #406adf;
+}
+.aquaTd{
+    background-color: #00fffc;
+}
+.purpleTd{
+    background-color: #653297;
+}
+.lilaTd{
+    background-color: #fd14fc;
+}
+.lila2Td{
+    background-color: #ed83ed;
+}
+.greenTd{
+    background-color: #0d7f0e;
+}
