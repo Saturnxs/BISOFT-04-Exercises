@@ -10,9 +10,13 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover{
+a:hover{
     border-bottom: 1px solid black;
     font-weight: 600;
+}
+
+.active {
+    border-bottom: 1px solid black;
 }
 
 .landing-image{
@@ -35,3 +39,4 @@ nav a:hover{
 .landing-image img{
     width: 70%;
 }
+

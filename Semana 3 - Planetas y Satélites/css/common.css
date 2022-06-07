@@ -1,5 +1,6 @@
 body {
     font-family: montserrat;
+    margin: 0;
 }
 
 nav {
@@ -20,3 +21,26 @@ section{
 .column {
     flex: 50%;
 }
+
+footer {
+    background-color: #26272b;
+    padding: 50px;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  
+  footer ul
+  {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  footer li
+  {
+    display: block;
+  }
+  
+  footer a
+  {
+      color: #ffffff;
+  }
