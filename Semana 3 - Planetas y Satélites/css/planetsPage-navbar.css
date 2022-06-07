@@ -1,12 +1,15 @@
 nav a {
     color: white;
     margin: 0 30px;
-    font-size: 13px;
+    font-size: 17px;
     padding: 0 12px;
     text-decoration: none;
 }
 
-nav a:hover{
-    border-bottom: 1px solid white;
+nav a:hover {
     font-weight: 600;
+}
+
+.active {
+    border-bottom: 3px solid rgb(197, 163, 163);
 }
