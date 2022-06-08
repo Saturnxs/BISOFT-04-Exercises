@@ -1,0 +1,130 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header{
+    background: #222222;
+    padding: 15px 20px 15px 50px;
+}
+
+#navPrincipal{
+    display: flow-root;
+}
+
+#navPrincipal a{
+    color: #999999;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#navPrincipal a:hover{
+    color: #EFAC43;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.floatRight{
+    float: right;
+}
+
+.imgBanner{
+    background-image: url(../img/banner.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position-y: center;
+    margin-bottom: 20px;
+}
+
+#bannerInicio{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#bannerInicio h1{
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+#bannerInicio p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#bannerInicio button{
+    background-color: #EFAC43;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#bannerInicio button:hover{
+    background-color: #e67e00;
+}
+
+#beneficios{
+    display: flow-root;
+}
+
+.imgBeneficios{
+    background-image: url('../img/beneficios.jpg');
+    background-size: cover;
+    height: 800px;
+    width: 40%;
+}
+
+.listBeneficios{
+    box-sizing: border-box;
+    padding: 40px;
+    width: 60%;
+    min-height: 800px;
+    position: relative;
+}
+
+.fondoNegro{
+   background:#000000; 
+}
+
+#beneficios .listBeneficios h2{
+    color: #EFAC43;
+    font-size: 24px;font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#beneficios .listBeneficios ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#beneficios .listBeneficios ul li{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.cuadroDecoracion{
+    width: 40px;
+    height: 40px;
+    background: #EFAC43;
+    position: absolute;
+}
+
+.primerCuadro{
+    bottom: 80px;
+    right: 0;
+}
+
+.segundoCuadro{
+    bottom: 40px;
+    right: 40px;
+}
+
+.tercerCuadro{
+    right: 0;
+    bottom: 0;
+}
