@@ -1,4 +1,4 @@
-# BISFOT-04-Exercises
+# BISOFT-04-Exercises
 **Estudiante: Thomas Emanuel Bermúdez Mora**
 
 Profesores:
