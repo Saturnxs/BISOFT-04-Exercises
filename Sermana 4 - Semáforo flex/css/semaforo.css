@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#semaforo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: gold;
+    height: 600px;
+    width: 300px;
+    border: 2px black solid;
+    border-radius: 25px;
+}
+
+.luz{
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    align-self: center;
+    border: 2px black solid;
+}
+
+#rojo{
+    background-color: red;
+}
+
+#amarillo{
+    background-color: yellow;
+}
+
+#verde{
+    background-color: green;
+}
